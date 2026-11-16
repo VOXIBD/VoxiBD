@@ -79,7 +79,7 @@ flowchart LR
 
 | Componente | Uso |
 |---|---|
-| [Asterisk](https://www.asterisk.org/) + [FreePBX](https://www.freepbx.org/) | Centralita VoIP y gestión de llamadas |
+| [Asterisk](https://www.asterisk.org/) | Centralita VoIP y gestión de llamadas |
 | Python | Lógica del bot y opciones del menú |
 | Bash | Scripts de envío de transcripciones y automatización |
 | [Whisper.cpp](https://github.com/ggml-org/whisper.cpp) | Reconocimiento de voz (voz a texto) |
@@ -89,13 +89,13 @@ flowchart LR
 
 ## Requisitos
 
-- Servidor/máquina virtual con Asterisk y FreePBX.
+- Servidor/máquina virtual con Asterisk.
 - Python 3, Bash y PostgreSQL.
 - Ollama con el modelo Qwen3 8B descargado.
 - Whisper.cpp compilado y un modelo de transcripción.
 - Hardware con recursos suficientes para ejecutar los modelos de IA (ver [limitaciones](#limitaciones-conocidas)).
 
-> Las versiones de Asterisk, FreePBX, Python, PostgreSQL, Ollama y Whisper.cpp deben ser compatibles entre sí.
+> Las versiones de Asterisk, Python, PostgreSQL, Ollama y Whisper.cpp deben ser compatibles entre sí.
 
 ## Instalación
 
