@@ -41,7 +41,7 @@ fi
 
 # 6. Verificación final
 for check in "python3:command -v python3" \
-             ""Whisper.cpp:/etc/whisper/whisper.cpp/build/bin/whisper-cli --help"" \
+             "Whisper.cpp:/etc/whisper/whisper.cpp/build/bin/whisper-cli --help" \
              "psql:command -v psql" \
              "asterisk:command -v asterisk" \
              "servicio postgresql activo:systemctl is-active --quiet postgresql" \
